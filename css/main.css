@@ -25,27 +25,6 @@ header {
 }
 
 
-footer {
-    background:black;
-    color:white;
-}
-footer a {
-    color:white;
-    text-decoration:underline;
-}
-footer a:hover {
-    color:white;
-    text-decoration:none;
-}
-footer .follow-us li {
-    display:inline-block;
-    padding:0 20px;
-}
-@media (min-width:992px) {
-    footer .follow-us li {
-        display:list-item;
-    }
-}
 
 .zajawka .logosy {
     padding-top: 3%;
@@ -81,7 +60,7 @@ footer .follow-us li {
     background: rgb(11, 22, 52);
     width: 100%;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
     color: white;
 }
 
@@ -102,6 +81,11 @@ footer .follow-us li {
     /*padding-left: 90px !important;*/
 /*}*/
 
-img.img-responsive {
+img.glowa {
     padding-top: 70px;
+}
+
+footer{
+    background: black
+;
 }
